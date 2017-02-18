@@ -23,6 +23,7 @@
 		67E5ABBB1E586D4300414018 /* SwipeGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E5ABBA1E586D4300414018 /* SwipeGestureViewController.m */; };
 		67E5ABBE1E5872C800414018 /* GestureConditionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E5ABBD1E5872C800414018 /* GestureConditionViewController.m */; };
 		67E5ABC11E58789700414018 /* GestureSimultaneousViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E5ABC01E58789700414018 /* GestureSimultaneousViewController.m */; };
+		67E5ABC41E5882DC00414018 /* RotationGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E5ABC31E5882DC00414018 /* RotationGestureViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,8 @@
 		67E5ABBD1E5872C800414018 /* GestureConditionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureConditionViewController.m; sourceTree = "<group>"; };
 		67E5ABBF1E58789700414018 /* GestureSimultaneousViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureSimultaneousViewController.h; sourceTree = "<group>"; };
 		67E5ABC01E58789700414018 /* GestureSimultaneousViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureSimultaneousViewController.m; sourceTree = "<group>"; };
+		67E5ABC21E5882DC00414018 /* RotationGestureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotationGestureViewController.h; sourceTree = "<group>"; };
+		67E5ABC31E5882DC00414018 /* RotationGestureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotationGestureViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				67E5ABBD1E5872C800414018 /* GestureConditionViewController.m */,
 				67E5ABBF1E58789700414018 /* GestureSimultaneousViewController.h */,
 				67E5ABC01E58789700414018 /* GestureSimultaneousViewController.m */,
+				67E5ABC21E5882DC00414018 /* RotationGestureViewController.h */,
+				67E5ABC31E5882DC00414018 /* RotationGestureViewController.m */,
 			);
 			path = GestureDemo;
 			sourceTree = "<group>";
@@ -207,6 +212,7 @@
 				679FFBD41E584F6D00FB8A18 /* PanGestureViewController.m in Sources */,
 				679FFBBA1E583F1600FB8A18 /* ViewController.m in Sources */,
 				675C0E851E5855830075B432 /* LongPressGestureViewController.m in Sources */,
+				67E5ABC41E5882DC00414018 /* RotationGestureViewController.m in Sources */,
 				679FFBB71E583F1600FB8A18 /* AppDelegate.m in Sources */,
 				67E5ABBB1E586D4300414018 /* SwipeGestureViewController.m in Sources */,
 				67E5ABBE1E5872C800414018 /* GestureConditionViewController.m in Sources */,

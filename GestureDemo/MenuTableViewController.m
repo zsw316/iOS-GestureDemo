@@ -15,6 +15,7 @@
 #import "SwipeGestureViewController.h"
 #import "GesturePriorityViewController.h"
 #import "GestureConditionViewController.h"
+#import "RotationGestureViewController.h"
 
 
 @interface MenuTableViewController ()
@@ -51,7 +52,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     if (section == 0) {
-        return 6;
+        return 7;
     }
     else {
         return 2;
@@ -93,6 +94,9 @@
                 break;
             case 5:
                 titleForCell = @"Swipe";
+                break;
+            case 6:
+                titleForCell = @"Rotation";
                 break;
             default:
                 break;
@@ -140,6 +144,9 @@
                 break;
             case 5:
                 targetVC = [[SwipeGestureViewController alloc] init];
+                break;
+            case 6:
+                targetVC = [[RotationGestureViewController alloc] init];
                 break;
             default:
                 break;
